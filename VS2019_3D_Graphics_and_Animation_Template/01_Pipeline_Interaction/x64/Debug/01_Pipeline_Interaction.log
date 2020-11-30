@@ -1,0 +1,26 @@
+﻿  Mesh.cpp
+  OBJLoader.cpp
+H:\GAGraphicsTemplate2020-master\GraphicsAssignment\VS2019_3D_Graphics_and_Animation_Template\01_Pipeline_Interaction\OBJLoader.cpp(31,43): warning C4267:  'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+H:\GAGraphicsTemplate2020-master\GraphicsAssignment\VS2019_3D_Graphics_and_Animation_Template\01_Pipeline_Interaction\OBJLoader.cpp(88,45): warning C4267:  'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+H:\GAGraphicsTemplate2020-master\GraphicsAssignment\VS2019_3D_Graphics_and_Animation_Template\01_Pipeline_Interaction\OBJLoader.cpp(125,51): warning C4267:  '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+H:\GAGraphicsTemplate2020-master\GraphicsAssignment\VS2019_3D_Graphics_and_Animation_Template\01_Pipeline_Interaction\OBJLoader.cpp(140,46): warning C4267:  '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+H:\GAGraphicsTemplate2020-master\GraphicsAssignment\VS2019_3D_Graphics_and_Animation_Template\01_Pipeline_Interaction\OBJLoader.cpp(168,39): warning C4267:  'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+H:\GAGraphicsTemplate2020-master\GraphicsAssignment\VS2019_3D_Graphics_and_Animation_Template\01_Pipeline_Interaction\OBJLoader.cpp(266,43): warning C4267:  'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+H:\GAGraphicsTemplate2020-master\GraphicsAssignment\VS2019_3D_Graphics_and_Animation_Template\01_Pipeline_Interaction\OBJLoader.cpp(300,42): warning C4267:  'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+H:\GAGraphicsTemplate2020-master\GraphicsAssignment\VS2019_3D_Graphics_and_Animation_Template\01_Pipeline_Interaction\OBJLoader.cpp(333,42): warning C4267:  'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+H:\GAGraphicsTemplate2020-master\GraphicsAssignment\VS2019_3D_Graphics_and_Animation_Template\01_Pipeline_Interaction\OBJLoader.cpp(382,13): warning C4244:  'return': conversion from 'double' to 'float', possible loss of data
+  Source.cpp
+H:\GAGraphicsTemplate2020-master\GraphicsAssignment\VS2019_3D_Graphics_and_Animation_Template\01_Pipeline_Interaction\OBJLoader.cpp(390,37): warning C4267:  'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+H:\GAGraphicsTemplate2020-master\GraphicsAssignment\VS2019_3D_Graphics_and_Animation_Template\01_Pipeline_Interaction\Source.cpp(103,24): warning C4305:  'initializing': truncation from 'double' to 'GLfloat'
+H:\GAGraphicsTemplate2020-master\GraphicsAssignment\VS2019_3D_Graphics_and_Animation_Template\01_Pipeline_Interaction\Source.cpp(487,81): warning C4305:  'argument': truncation from 'double' to 'GLfloat'
+H:\GAGraphicsTemplate2020-master\GraphicsAssignment\VS2019_3D_Graphics_and_Animation_Template\01_Pipeline_Interaction\Source.cpp(584,82): warning C4305:  'argument': truncation from 'double' to 'GLfloat'
+H:\GAGraphicsTemplate2020-master\GraphicsAssignment\VS2019_3D_Graphics_and_Animation_Template\01_Pipeline_Interaction\Source.cpp(599,74): warning C4305:  'argument': truncation from 'double' to 'GLfloat'
+H:\GAGraphicsTemplate2020-master\GraphicsAssignment\VS2019_3D_Graphics_and_Animation_Template\01_Pipeline_Interaction\Source.cpp(612,81): warning C4305:  'argument': truncation from 'double' to 'GLfloat'
+H:\GAGraphicsTemplate2020-master\GraphicsAssignment\VS2019_3D_Graphics_and_Animation_Template\01_Pipeline_Interaction\Source.cpp(627,74): warning C4305:  'argument': truncation from 'double' to 'GLfloat'
+H:\GAGraphicsTemplate2020-master\GraphicsAssignment\VS2019_3D_Graphics_and_Animation_Template\01_Pipeline_Interaction\Source.cpp(640,81): warning C4305:  'argument': truncation from 'double' to 'GLfloat'
+H:\GAGraphicsTemplate2020-master\GraphicsAssignment\VS2019_3D_Graphics_and_Animation_Template\01_Pipeline_Interaction\Source.cpp(654,74): warning C4305:  'argument': truncation from 'double' to 'GLfloat'
+H:\GAGraphicsTemplate2020-master\GraphicsAssignment\VS2019_3D_Graphics_and_Animation_Template\01_Pipeline_Interaction\Source.cpp(667,81): warning C4305:  'argument': truncation from 'double' to 'GLfloat'
+H:\GAGraphicsTemplate2020-master\GraphicsAssignment\VS2019_3D_Graphics_and_Animation_Template\01_Pipeline_Interaction\Source.cpp(701,74): warning C4305:  'argument': truncation from 'double' to 'GLfloat'
+  Generating Code...
+H:\GAGraphicsTemplate2020-master\GraphicsAssignment\VS2019_3D_Graphics_and_Animation_Template\01_Pipeline_Interaction\Source.cpp(714,81): warning C4305:  'argument': truncation from 'double' to 'GLfloat'
+  01_Pipeline_Interaction.vcxproj -> H:\GAGraphicsTemplate2020-master\GraphicsAssignment\VS2019_3D_Graphics_and_Animation_Template\x64\Debug\Main_Template.exe
