@@ -199,48 +199,36 @@ int main()
 	return 0;
 }
 
+//Function developed by Dr Ian Martin From the university of Dundee.
+//I used this function when I did a short graphics course at this university
 bool load_texture(const char* filename, GLuint& texID, bool bGenMipmaps)
 {
 	glGenTextures(1, &texID);
-
 	stbi_set_flip_vertically_on_load(true);
 
 	// local image parameters
 	int width, height, nrChannels;
-
 	/* load an image file using stb_image */
 	unsigned char* data = stbi_load(filename, &width, &height, &nrChannels, 0);
 
 	// check for an error during the load process
 	if (data)
 	{
-		// Note: this is not a full check of all pixel format types, just the most common two!
 		int pixel_format = 0;
-
 		if (nrChannels == 3)
 			pixel_format = GL_RGB;
 		else
 			pixel_format = GL_RGBA;
 
-		// Bind the texture ID before the call to create the texture.
 		// texID[i] will now be the identifier for this specific texture
 		glBindTexture(GL_TEXTURE_2D, texID);
-
 		// Create the texture, passing in the pointer to the loaded image pixel data
 		glTexImage2D(GL_TEXTURE_2D, 0, pixel_format, width, height, 0, pixel_format, GL_UNSIGNED_BYTE, data);
-
-		//glTexStorage2D(GL_TEXTURE_2D, 1, GL_RGB8, width, height);
-
-		//glTexSubImage2D(GL_TEXTURE_2D, 0, 0, 0, width, height, pixel_format, GL_UNSIGNED_BYTE, data);
-
 		glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_REPEAT);
 		glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_REPEAT);
-
-		// Set texture filtering parameters (next lecture)
+		// Set texture filtering parameters
 		glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
 		glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
-		
-
 		// Generate Mip Maps
 		if (bGenMipmaps)
 			glGenerateMipmap(GL_TEXTURE_2D);
@@ -250,7 +238,6 @@ bool load_texture(const char* filename, GLuint& texID, bool bGenMipmaps)
 		printf("stb_image  loading error: filename=%s", filename);
 		return false;
 	}
-
 	stbi_image_free(data);
 	return true;
 }
